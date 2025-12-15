@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { siaService } from '../services/mockBackend';
 import { SuratJalan, StatusDokumen } from '../types';
-import { CheckCircle, AlertCircle, PackageCheck, Truck } from 'lucide-react';
+import { CheckCircle, PackageCheck, Truck } from 'lucide-react';
 
 const WarehouseView: React.FC = () => {
   const [suratJalanList, setSuratJalanList] = useState<SuratJalan[]>([]);

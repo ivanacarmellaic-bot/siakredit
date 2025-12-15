@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { siaService } from '../services/mockBackend';
 import { auditJournalEntry } from '../services/geminiService';
 import { JurnalEntry } from '../types';
-import { BookOpen, Sparkles, RefreshCcw, Table, FileSpreadsheet } from 'lucide-react';
+import { BookOpen, Sparkles, FileSpreadsheet } from 'lucide-react';
 
 const AccountingView: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'JOURNAL' | 'REPORT'>('JOURNAL');
